@@ -1,0 +1,5 @@
+<div *ngIf="links">
+  <app-link *ngFor="let link of links"></app-link>
+</div>
+
+<mda-progress *ngIf="!links"></mda-progress>
